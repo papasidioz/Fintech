@@ -1,0 +1,43 @@
+@import url(./global.css);
+
+header{
+    font-family: var(--font-family-primary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 46px;
+    background-color: var(--color-secondary);
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.container-nav-header{
+    display: flex;
+    align-items: center;
+    gap: 139px;
+}
+
+.navigation-header{
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    font-size: var(--font-size-body);
+}
+
+.navigation-header li a{
+    color: var(--color-neutral);
+    text-decoration: none;
+}
+
+.btn-header{
+    background-color: var(--color-primary);
+    color: var(--color-neutral);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: var(--font-weight-button);
+    transition: 0.3s;
+}
+
+.btn-header:hover{
+    background-color: #762ebe;
+}

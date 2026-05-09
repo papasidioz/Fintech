@@ -1,0 +1,42 @@
+/*--- Reset do CSS ---*/
+*{
+    border: 0; /* Borda do elemento -> zeramos*/
+    margin: 0; /* Distância externa -> zeramos*/
+    padding: 0; /*Espaçamento interno -> zeramos*/
+    box-sizing: border-box; /*Respeitar largura e altura*/
+}
+
+/* Vaiáveis */
+:root{
+    /* Cores */
+    --color-primary: #9130F4;
+    --color-secondary: #121139;
+    --color-neutral: #F4F4F4;
+
+/* Fontes */
+
+/* Tamanho da fonte */
+    --font-size-h1: 54px;
+    --font-size-h2: 45px;
+    --font-size-h3: 35px;
+    --font-size-h4: 30px;
+    --font-size-h5: 25px;
+    --font-size-body: 16px;
+    --font-size-button: 16px;
+    --font-size-caption: 14px;
+
+/* Espessura da fonte */
+    --font-weight-h1: 700; 
+    --font-weight-h2: 700; 
+    --font-weight-h3: 700; 
+    --font-weight-h4: 500;
+    --font-weight-h5: 500; 
+    --font-weight-body: 400; 
+    --font-weight-button: 700;
+    --font-weight-caption: 400;
+    
+/* Família da fonte */
+--font-family-primary: "Inter", sans-serif;
+     
+
+}
