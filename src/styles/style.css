@@ -50,7 +50,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 80px;
 }
 
 .main-content{
@@ -89,4 +89,39 @@ main{
 
 .btn-main:hover{
     background-color: #3b3977;
+}
+
+/* Section-Infos */
+.section-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px 100px;
+    font-family: var(--font-family-primary);
+    padding: 100px;
+    
+}
+
+.section-infos h2{
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    width: 443;
+}
+
+.section-infos h2 span{
+    display: flex;
+    color: var(--color-primary);
+}
+
+.section-infos p{
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    width: 603px;
+    gap: 30px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
