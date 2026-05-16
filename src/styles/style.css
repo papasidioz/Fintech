@@ -1,5 +1,6 @@
 @import url(./global.css);
 
+/* Header */
 header{
     font-family: var(--font-family-primary);
     display: flex;
@@ -40,4 +41,52 @@ header{
 
 .btn-header:hover{
     background-color: #762ebe;
+}
+
+/* Main */
+main{
+    background-color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-neutral);
+    gap: 25px;
+    padding: 50px 0px;
+}
+
+.main-content h1{
+    font-size: var(--font-size-h1);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content h1 span{
+    color: var(--color-primary);
+}
+
+.main-content p{
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    width: 497px;
+}
+
+.btn-main{
+    border-radius: 10px;
+    background-color: var(--color-secondary);
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid var(--color-primary);
+    color: var(--color-neutral);
+    transition: 0.3s;
+}
+
+.btn-main:hover{
+    background-color: #3b3977;
 }
